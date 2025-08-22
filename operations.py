@@ -27,10 +27,10 @@ def maximum(list):
 
 if __name__ == "__main__":
 
-    print("start test power")
+    print("start test maximum")
 
-    print(power(2, .5))
-    print(power(2, 100))
+    print(maximum([23, -19, -4, -110]))
+    print(maximum([1, .100, .10000, .9000000]))
 
     print("end test")
 
